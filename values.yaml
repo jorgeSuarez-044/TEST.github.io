@@ -1,0 +1,18 @@
+# values.yaml
+
+replicaCount: 2
+
+image:
+  repository: tu-repositorio/frontend
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: true
+  hosts:
+    - host: tu-front-end.com
+      paths: ["/"]
