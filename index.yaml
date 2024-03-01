@@ -5,4 +5,4 @@ entries:
     created: 2024-02-27T00:00:00.000Z
     digest: sha256:abcdef1234567890
     urls:
-      - https://tudominio.com/repositorio/test-1.0.0.tgz
+      - testchart/charts/test-0.1.0.tgz
