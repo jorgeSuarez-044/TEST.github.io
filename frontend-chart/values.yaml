@@ -1,5 +1,3 @@
-# values.yaml
-
 replicaCount: 2
 
 image:
@@ -14,5 +12,6 @@ service:
 ingress:
   enabled: true
   hosts:
-    - host: tu-front-end.com
-      paths: ["/"]
+    host: tu-front-end.com
+    paths: ["/"]
+
