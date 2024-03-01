@@ -1,0 +1,7 @@
+# Chart.yaml
+
+apiVersion: v2
+name: test
+description: A Helm chart for deploying a front-end application
+type: application
+version: 0.1.0
